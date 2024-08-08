@@ -1,0 +1,6 @@
+runtime_data
+docker-compose.yml
+Dockerfile
+openalpr.conf
+placa.py
+__pycache__

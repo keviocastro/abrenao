@@ -1,0 +1,4 @@
+services:
+  openalpr:
+    image: openalpr
+    build: .
