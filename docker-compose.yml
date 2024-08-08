@@ -2,3 +2,8 @@ services:
   openalpr:
     image: openalpr
     build: .
+    volumes:
+      - ./src:/app/src
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
